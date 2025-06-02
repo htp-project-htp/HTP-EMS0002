@@ -5,7 +5,7 @@
 
 class HTP_EMS0002 {
 public:
-    MuscleStim(uint8_t pin);
+    HTP_EMS0002(uint8_t pin);
     void begin();
     void setFrequency(uint16_t frequency); // in Hz
     void setDutyCycle(uint8_t duty);       // 0–100%
