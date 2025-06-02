@@ -1,0 +1,7 @@
+MuscleStim	KEYWORD1
+begin	KEYWORD2
+setFrequency	KEYWORD2
+setDutyCycle	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+update	KEYWORD2
