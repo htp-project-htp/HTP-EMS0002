@@ -1,6 +1,7 @@
-MuscleStim	KEYWORD1
+HTP_EMS0002	KEYWORD1
 begin	KEYWORD2
 setFrequency	KEYWORD2
+setOnOffTimers	KEYWORD2
 setDutyCycle	KEYWORD2
 start	KEYWORD2
 stop	KEYWORD2
