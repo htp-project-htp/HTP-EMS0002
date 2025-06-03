@@ -118,7 +118,7 @@ void HTP_EMS0002::update() {
 
     // PWM signal update
     unsigned long period = 1000UL / _frequency;
-    unsigned long onTime = (period * _dutyCycle) / 25;
+    unsigned long onTime = (period * _dutyCycle) / 100;
     unsigned long offTime = period - onTime;
 
     if (_outputState && (now - _lastToggleTime >= onTime)) {
